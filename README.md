@@ -6,16 +6,16 @@ npm run dev
 npm run build
 ```
 #### 项目组成
-项目由三个模块组成：物资监控、业务监控、告警监控
-图表：echart
-屏幕自适应：lib-flexible（需要手动配置）
-api：axios
-轮播：vue-awesome-swiper
-数字翻页：vue-count-to
-无缝滚动：vue-seamless-scroll
-事件通信：$Event
-UI：element-ui
-地图：腾讯地图、热力图
+项目由三个模块组成：物资监控、业务监控、告警监控<br>
+图表：echart<br>
+屏幕自适应：lib-flexible（需要手动配置）<br>
+api：axios<br>
+轮播：vue-awesome-swiper<br>
+数字翻页：vue-count-to<br>
+无缝滚动：vue-seamless-scroll<br>
+事件通信：$Event<br>
+UI：element-ui<br>
+地图：腾讯地图、热力图<br>
 
 
 #### 物资监控
