@@ -1,0 +1,215 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.loadWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  .loadingCont {
+    width: 50px;
+    height: 50px;
+
+    svg {
+      width: 50px;
+      height: 50px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      margin: auto auto;
+    }
+  }
+}
+
+.el-select {
+  padding: 0;
+  margin: 0;
+
+  .el-input__inner {
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    height: 40px;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-indent: 10px;
+    background: #0d0f13;
+    box-sizing: border-box;
+    border: 1px solid #ffbb32;
+    border-radius: 6px;
+  }
+}
+
+.el-select-dropdown {
+  color: #fff;
+  background: #0d0f13;
+  box-sizing: border-box;
+  border: 0.010417rem solid #ffbb32 !important;
+
+  .el-scrollbar {
+    width: 100%;
+    ul {
+      width: 100%;
+      padding: 0;
+      list-style: none;
+
+      li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        padding: 0 0 5px 10px;
+        background-color: #000;
+        cursor: pointer;
+        color: #ffbb32;
+        &:hover {
+          background-color: #ffbb32;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.el-progress__text {
+  font-size: 14px !important;
+}
+.el-progress-bar__outer {
+  background-color: transparent !important;
+}
+.el-progress__text {
+  color: white !important;
+  margin-left: 15px !important;
+}
+.el-progress-bar {
+  width: 85% !important;
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  background: #ffbb32;
+}
+
+.el-popper[x-placement^="bottom"] .popper__arrow,
+.el-popper[x-placement^="bottom"] .popper__arrow::after {
+  top: 0px !important;
+  margin-left: 0px !important;
+  border-top-width: 0 !important;
+  border-bottom-color: transparent !important;
+}
+
+.el-select .el-input .el-select__caret {
+  color: #ffbb32;
+}
+
+// 地图样式
+.infoCont {
+  padding: 0;
+  width: 460px;
+  overflow: hidden;
+  border: 2px solid #1a66ff;
+  background: #0d0f13;
+  color: #fff;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 10px auto 0;
+
+    span:nth-child(1) {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    span:nth-child(2) {
+      color: #66faff;
+      font-size: 16px;
+    }
+  }
+
+  .addrCont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+    margin: 10px auto 0;
+    font-size: 14px;
+    color: #fff;
+    span {
+      margin-left: 5px;
+    }
+
+    img {
+      width: 23px;
+      height: 25px;
+    }
+  }
+
+  .imageCont {
+    width: 95%;
+    margin: 10px auto 0;
+  }
+
+  .itemCont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    // flex-direction: column;
+    width: 95%;
+    margin: 10px auto;
+
+    .wrap {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 45%;
+      font-size: 14px;
+
+      span:nth-child(1) {
+        color: #999;
+      }
+
+      .contWrap {
+        display: inline-block;
+        width: 65%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+.zoom-control {
+  display: none !important;
+}
+.tmap-zoom-control {
+  display: none !important;
+}
+.logo-text{
+  display: none!important;
+}
+.buleColor {
+  color: #66faff;
+}
+
+.whiteColor {
+  color: #fff;
+}
+
+.redColor {
+  color: #ff411b;
+}
+.el-message--info {
+  display: none !important;
+}
