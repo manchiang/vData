@@ -19,7 +19,7 @@ UI：element-ui<br>
 
 
 #### 物资监控
-![物资监控](/img/1.png)
+![物资监控](http://arsizes.com/img/1.png)
 
 #### 业务监控
-![业务监控](/img/2.png)
+![业务监控](http://arsizes.com/img/2.png)
